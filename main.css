@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: whitesmoke;
+}
+
+.button1 {
+  font-weight: bold;
+  cursor: crosshair;
+}
+
+.button1:hover {
+  color: blue;
+}
+.container {
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+  height: 100vh;
+}
+
+.html {
+  width: 120px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-flow: row-reverse;
+}
